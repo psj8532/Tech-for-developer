@@ -2,7 +2,7 @@
 
 ![](images/lifecycle.png)
 
-
+![lifecycle-sub](images/lifecycle-sub.png)
 
 ### 종류
 
@@ -57,10 +57,6 @@
     컴포넌트가 DOM에 추가 된 후 호출되는 훅입니다. `$el` 을 사용하여 DOM에 접근 할 수 있습니다. 자식 컴포넌트가 모두 `DOM`에 추가된 후, 부모 컴포넌트의 마운트가 끝나기 때문에 모든 컴포넌트가 마운트 됐다고 보장할 수 없습니다.
     
     ![](images/lifecycle-mount.png)
-
-
-
-### Update
 
 
 
