@@ -2,7 +2,7 @@
 
 ![](images/lifecycle.png)
 
-
+![lifecycle-sub](images/lifecycle-sub.png)
 
 ### 종류
 
