@@ -30,7 +30,7 @@
 
 
 
-![](C:\Users\eladh\Desktop\project\Tech-for-developer\ComputerScience\Programming\images\block-sync-nonblock-async.PNG)
+![](C:\Users\eladh\Desktop\project\Tech-for-developer\Programming\images\block-sync-nonblock-async.PNG)
 
 
 
@@ -42,13 +42,13 @@
 
 - 호출된 함수는 바로 리턴해서 제어권을 넘겨주어, 호출한 함수는 다른 작업을 수행할 수 있습니다. 하지만, 호출된 함수의 작업 완료 여부를 계속 문의하여 확인해줍니다. 정리하면, 다른 작업을 수행하면서도 호출한 함수의 작업 완료 여부를 계속 확인하는 것입니다.
 
-![](C:\Users\eladh\Desktop\project\Tech-for-developer\ComputerScience\Programming\images\nonblock-sync.PNG)
+![](C:\Users\eladh\Desktop\project\Tech-for-developer\Programming\images\nonblock-sync.PNG)
 
 ##### Block  + Async
 
 - 호출된 함수는 작업을 모두 마친후에 리턴하지만, 호출한 함수는 작업 완료 여부를 신경쓰지 않는 것입니다. 그래서 호출한 함수는 작업 완료 여부를 문의만 하지 않을뿐, 호출된 함수가 끝날때까지 다른 일을 하지 못하고 대기하다가 작업이 끝나면 콜백이 실행되는 것입니다. 이 경우 어차피 다른 일을 할 수 없으므로 Block + Sync 방식과 유사하며 이점이 없으므로 잘 사용하지 않습니다.
 
-![](C:\Users\eladh\Desktop\project\Tech-for-developer\ComputerScience\Programming\images\block-async.PNG)
+![](C:\Users\eladh\Desktop\project\Tech-for-developer\Programming\images\block-async.PNG)
 
 
 
