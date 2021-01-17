@@ -9,7 +9,7 @@
 1. Create
 2. Mount
 3. Update
-4. Destruct
+4. Destroy
 
 
 
